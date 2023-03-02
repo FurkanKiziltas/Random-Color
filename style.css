@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    transition: all 1s ease-in-out;
+}
+
+div {
+    background-color: transparent;
+    border: 3px solid black;
+    padding: 20px;
+    width: 36%;
+    font-size: 40px;
+    position: relative;
+    margin-top: 15%;
+    left: 30%;
+    border-radius: 3%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    position: relative;
+    left: 43%;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 5%;
+    cursor: pointer;
+}
